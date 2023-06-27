@@ -1,0 +1,31 @@
+.divFactura{
+  border: 2px black solid;
+  width: 80%;
+  margin: auto;
+}
+
+.h3Rotado{
+  position: relative;
+  transform: rotate(-90deg);
+  display: flex;
+  width: 300px;
+  margin-left: -130px;
+  margin-top: 200px;
+  
+}
+.tabla1{
+  margin-left: 70px;
+  width: 95%;
+}
+.pTotal{
+  border-bottom: 2px black solid;
+}
+.divTotal{
+  text-align: right;
+}
+label{
+  margin: 0 10px;
+}
+.divCliente{
+  float: right;
+}
