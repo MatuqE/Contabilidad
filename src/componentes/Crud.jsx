@@ -1,6 +1,7 @@
-import React, { useEffect, useState } from "react";
+import  { useEffect, useState } from "react";
 import Header from "./Header";
 import Tabla from "./Tabla";
+import "../Css/Crud.css"
 
 const Crud = () => {
   const [fecha, setFecha] = useState("");
@@ -54,6 +55,7 @@ const Crud = () => {
   return (
     <div>
       <Header />
+      <div className="main2">
       <div className="container m-auto">
         <h3>Datos del cliente</h3>
         <form action="" onSubmit={handleSubmit}>
@@ -151,7 +153,7 @@ const Crud = () => {
         <div id="divFac" hidden={visible}>
           <div className="m-4">
           </div>
-          <div className="divFactura row">
+          <div className="divFactura bg-light row">
             <div className="col-8">
               <h3>SOL SRL </h3>
               <br />
@@ -211,6 +213,8 @@ const Crud = () => {
         </div>
       </div>
     </div>
+
+      </div>
   );
 };
 
